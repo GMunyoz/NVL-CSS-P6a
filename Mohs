@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>LFPE</title>
+     <style>
+         .primero {
+             background-color: white;
+             color: black;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: bold;
+         }
+         .segundo {
+             background-color: rgb(223, 223, 223);
+             color:  rgb(19, 19, 19);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: bold;
+         }
+         .tercero {
+             background-color: rgba(204, 204, 204, 0.87);
+             color: rgb(37, 37, 37);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: bold;
+         }
+         .cuarto {
+             background-color: rgba(204, 204, 204, 0.699);
+             color: rgb(44, 44, 44);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: bold;
+         }
+         .quinto {
+             background-color: rgba(204, 204, 204, 0.514);
+             color: rgb(59, 59, 59);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: bold;
+         }
+         .sexto {
+             background-color: rgba(204, 204, 204, 0.39);
+             color: rgba(255, 254, 254, 0.418);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: normal;
+         }
+         .séptimo {
+             background-color: rgba(204, 204, 204, 0.301);
+             color: rgba(255, 255, 255, 0.658);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: normal;
+         }
+         .octavo {
+             background-color: rgba(204, 204, 204, 0.171);
+             color: rgba(255, 255, 255, 0.699);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: normal;
+         }
+         .noveno {
+             background-color: rgba(204, 204, 204, 0.075);
+             color: rgba(255, 255, 255, 0.822);
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: normal;
+         }
+         .décimo {
+             background-color: rgba(204, 204, 204, 0);
+             color: white;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-weight: normal;
+         }
+         #nombre {
+             font-style: italic;
+             font-size: small;
+         }
+     </style>
+
+   </head>
+   
+   <body>
+    <table>
+        <caption> <h1>La Famosa en el mundo entero tabla de Mohs</h1></caption>
+        <th>
+           <td>Nombre</td>
+           <td>Se raya con...</td>
+           
+        </th>
+        <tr>
+           <td class="primero">1</td>
+           <td class="primero">Talco</td>
+           <td class="primero" id="nombre">Se raya facil con la uña</td>
+           
+        </tr>
+        
+        <tr>
+            <td class="segundo">2</td>
+            <td class="segundo">Yeso</tdclass="primero">
+            <td class="segundo" id="nombre">Se raya con la uña con dificultad</td>
+        
+         </tr>
+         <tr>
+            <td class="tercero">3</tdclass="segundo">
+            <td class="tercero">Calcita</td>
+            <td class="tercero" id="nombre">Se raya con una moneda de cobre</td>
+           
+         </tr>
+         <tr>
+            <td class="cuarto">4</td>
+            <td class="cuarto">Fluorita</tdclass="cuarto">
+            <td class="cuarto" id="nombre">Se raya con un cuchillo de acero</td>
+           
+         </tr>
+         <tr>
+            <td class="quinto">5</td>
+            <td class="quinto">Apatitio</td>
+            <td class="quinto" id="nombre">Se puede rayar difícilmente con un cuchillo</td>
+           
+         </tr>
+         <tr>
+            <td class="sexto">6</td>
+            <td class="sexto">Ortosa</td>
+            <td class="sexto" id="nombre">Se puede rayar con una lija para el acero</td>
+            
+         </tr>
+         <tr>
+            <td class="séptimo">7</td>
+            <td class="séptimo">Cuarzo</td>
+            <td class="séptimo" id="nombre">Raya el vidrio</td>
+            
+         </tr>
+         <tr>
+            <td class="octavo">8</td>
+            <td class="octavo">Topacio</td>
+            <td class="octavo" id="nombre">Rayado por herramientas de carburo de wolframio</td>
+            
+         </tr>
+         <tr>
+            <td class="noveno">9</td>
+            <td class="noveno">Corindón</td>
+            <td class="noveno" id="nombre">Rayado por herramientas de carburo de silicio</td>
+            
+         </tr>
+         <tr>
+            <td class="décimo">10</td>
+            <td class="décimo">Diamante</td>
+            <td class="décimo" id="nombre">Rayado por otro diamante	</td>
+            
+         </tr>
+                 </table>
+
